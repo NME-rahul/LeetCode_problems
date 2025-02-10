@@ -1,8 +1,25 @@
 # Intuition
 <!-- Describe your first thoughts on how to solve this problem. -->
+Just a simple scientific notation.
 
 # Approach
 <!-- Describe your approach to solving the problem. -->
+
+$Q = \{q_1, q_2, q_3, q_4, q_5, q_6, q_7, q_8 \}$
+
+$F = \{q_4, q_5, q_8\}$
+
+$q = q_1$
+
+$\sum = \{., +, -, e, E, 0...9\}$
+
+$RE  = (+, -, \epsilon)(0...9)^*\{\epsilon, .(0...9)^+\}\{\epsilon, (e, E)(+, -, \epsilon)(0...9)^+\}$ 
+
+![](https://raw.githubusercontent.com/NME-rahul/LeetCode_problems/refs/heads/main/Valid%20Number/image/20250211_000516.jpg)
+
+PS: Above Finite automaton is not minimal by converting it to minimal DFA you can achieve faster execution, still the time complexity will remain same.
+
+Code is messy !! 🥲
 
 # Complexity
 - Time complexity: O(n)
@@ -18,7 +35,7 @@ Integer: a whole number without decimal point. can contain '+' or '-'
 Decimal: a number with decimal point. can contain '+', '-' or '.'(decimal point can be any where)
 Exponent: denoted by e or E
 
-1. Integer [e / E/ NULL]
+1. ()
 2. Decimal [e / E/ NULL]
 */
 
